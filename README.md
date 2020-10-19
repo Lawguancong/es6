@@ -1,3 +1,29 @@
+### 这是什么项目？ 
+1. es6知识点总结归纳
+
+### 来源 
+1. 转自: https://es6.ruanyifeng.com/
+
+### 适合对象
+1. 对JavaScript有初步的认识，且进阶巩固es6。
+
+### 如何启动项目
+1. npm install
+2. npm start
+3. 浏览器访问 http://localhost:3000
+
+### 目录
+0. react app
+http://localhost:3000/app
+
+1. let 和 const
+http://localhost:3000/1
+
+2. 变量的解构赋值
+http://localhost:3000/2
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,5 +92,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-# es6
