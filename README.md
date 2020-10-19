@@ -4,9 +4,6 @@
 ### 来源 
 1. 转自: https://es6.ruanyifeng.com/
 
-### 适合对象
-1. 对JavaScript有初步的认识，且进阶巩固es6。
-
 ### 如何启动项目
 1. npm install
 2. npm start
@@ -21,6 +18,8 @@ http://localhost:3000/1
 
 2. 变量的解构赋值
 http://localhost:3000/2
+
+
 
 
 

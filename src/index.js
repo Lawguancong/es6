@@ -6,7 +6,7 @@ import './index.css';
 
 import App from './pages/app/App';
 import Comp1 from './pages/1';
-// import Comp2 from './pages/2';
+import Comp2 from './pages/2';
 
 console.log(this)
 
@@ -17,7 +17,7 @@ ReactDOM.render(
         {/* <Route exact path="/" component={Home} /> */}
         <Route exact path="/app" component={App} />
         <Route path="/1" component={Comp1} />
-        {/* <Route path="/2" component={Comp2} /> */}
+        <Route path="/2" component={Comp2} />
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root')
