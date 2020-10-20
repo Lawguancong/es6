@@ -4,6 +4,9 @@ import React from 'react';
 
 export default class Comp extends React.PureComponent {
 
+    renderTitle = () =>{
+        return <h1>let 和 const</h1>
+    }
 
     renderDemo = () => {
 
@@ -369,7 +372,7 @@ ES2020 在语言标准的层面，引入globalThis作为顶层对象。也就是
 
         return (
             <div>
-                <h1>let 和 const</h1>
+                {this.renderTitle()}
                 {this.renderDemo()}
             </div>
         );

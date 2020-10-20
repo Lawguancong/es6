@@ -5,6 +5,10 @@ import React from 'react';
 export default class Comp extends React.PureComponent {
 
 
+    renderTitle = () =>{
+      return <h1>变量的解构赋值</h1>
+  }
+
     renderDemo = () => {
 
 
@@ -270,13 +274,10 @@ for (let [,value] of map) {
    
     render() {
 
-
-        //   console.log(s)
-        //   console.log(s1)
-
         return (
             <div>
-                <h1>变量的解构赋值</h1>
+                
+                {this.renderTitle()}
                 {this.renderDemo()}
             </div>
         );
