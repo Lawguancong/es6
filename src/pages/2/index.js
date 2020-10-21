@@ -15,7 +15,7 @@ export default class Comp extends React.PureComponent {
         return (
             <pre>
                 <code>
-                    {`
+                    {String.raw`
 1. 数组的解构赋值
 原理：
 只要某种数据结构具有 Iterator 接口，都可以采用数组形式的解构赋值。

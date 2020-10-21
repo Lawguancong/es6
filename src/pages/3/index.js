@@ -16,7 +16,7 @@ export default class Comp extends React.PureComponent {
         return (
             <pre>
                 <code>
-                    {`
+                    {String.raw`
 1. 字符的 Unicode 表示法
 
 \\uxxxx
@@ -81,7 +81,8 @@ const PS = eval("'\u2029'");
 根据标准，JSON 数据必须是 UTF-8 编码。
 
 补充：
-Unicode UTF-8 UTF-16 UTF-32 GB2312
+Unicode 编码规范
+编码的实现：UTF-8 UTF-16 UTF-32 GB2312
 
 Unicode是一个编码方案，Unicode 是为了解决传统的字符编码方案的局限而产生的，它为每种语言中的每个字符设定了统一并且唯一的二进制编码，以满足跨语言、跨平台进行文本转换、处理的要求。
 Unicode 编码共有三种具体实现，分别为utf-8,utf-16,utf-32，其中utf-8占用一到四个字节，utf-16占用二或四个字节，utf-32占用四个字节。目前Unicode 码在全球范围的信息交换领域均有广泛的应用。
@@ -140,6 +141,7 @@ const tmpl = addrs => \`
 
     renderStr4 = () => <h1>{`左边${`dfsf${<h2>{`看交流交流`}</h2>}sfsdf`}右边`}</h1>
 
+    renderStr5 = () => `<a>${'lgc'}</a>`
     render() {
         
         let template = `
@@ -160,6 +162,7 @@ const tmpl = addrs => \`
                 {this.renderStr2(['1', '2', '3', '4'])}
                 {this.renderStr3()}
                 {this.renderStr4()}
+                {this.renderStr5()}
             </div>
         );
     }

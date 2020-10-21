@@ -14,7 +14,7 @@ export default class Comp extends React.PureComponent {
         return (
             <pre>
                 <code>
-                    {`
+                    {String.raw`
 
 ES5 声明变量的方法: var function
 

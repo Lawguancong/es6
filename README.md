@@ -22,6 +22,9 @@ http://localhost:3000/2
 3. 字符串的扩展
 http://localhost:3000/3
 
+4. 字符串新增方法
+http://localhost:3000/4
+
 
 
 
