@@ -25,6 +25,9 @@ http://localhost:3000/3
 4. 字符串新增方法
 http://localhost:3000/4
 
+5. 正则的扩展
+http://localhost:3000/5
+
 
 
 
