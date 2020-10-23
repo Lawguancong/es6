@@ -11,13 +11,13 @@ import Comp3 from './pages/3';
 import Comp4 from './pages/4';
 import Comp5 from './pages/5';
 import Comp6 from './pages/6';
+import Comp7 from './pages/7';
 
 console.log(this)
 
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
-
         {/* <Route exact path="/" component={Home} /> */}
         <Route exact path="/app" component={App} />
         <Route path="/1" component={Comp1} />
@@ -26,6 +26,7 @@ ReactDOM.render(
         <Route path="/4" component={Comp4} />
         <Route path="/5" component={Comp5} />
         <Route path="/6" component={Comp6} />
+        <Route path="/7" component={Comp7} />
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root')

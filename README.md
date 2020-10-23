@@ -28,6 +28,12 @@ http://localhost:3000/4
 5. 正则的扩展
 http://localhost:3000/5
 
+6. 数值的扩展
+http://localhost:3000/6
+
+7. 函数的扩展
+http://localhost:3000/7
+
 
 
 
