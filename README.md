@@ -34,6 +34,9 @@ http://localhost:3000/6
 7. 函数的扩展
 http://localhost:3000/7
 
+8. this apply call bind用法
+http://localhost:3000/8
+
 
 
 
