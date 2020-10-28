@@ -40,6 +40,8 @@ http://localhost:3000/8
 9. 数组的扩展
 http://localhost:3000/9
 
+10. 对象的扩展
+http://localhost:3000/10
 
 
 

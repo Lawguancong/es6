@@ -17,6 +17,17 @@ export default class Comp extends React.PureComponent {
             <pre>
                 <code>
                     {String.raw`
+
+关于数组
+数组是一种类列表对象，它的原型中提供了遍历和修改元素的相关操作。JavaScript 数组的长度和元素类型都是非固定的。
+因为数组的长度可随时改变，并且其数据在内存中也可以不连续，所以 JavaScript 数组不一定是密集型的，这取决于它的使用方式。
+一般来说，数组的这些特性会给使用带来方便，但如果这些特性不适用于你的特定使用场景的话，可以考虑使用类型数组 TypedArray。
+
+只能用整数作为数组元素的索引，而不能用字符串。后者称为关联数组。使用非整数并通过方括号或点号来访问或设置数组元素时，所操作的并不是数组列表中的元素，而是数组对象的属性集合上的变量。
+数组对象的属性和数组元素列表是分开存储的，并且数组的遍历和修改操作也不能作用于这些命名属性。
+
+
+
 1.扩展运算符 (spread) (...)
 相反：它好比 rest 参数的逆运算，将一个数组转为用逗号分隔的参数序列。
 
@@ -523,6 +534,77 @@ ES2019 明确规定，Array.prototype.sort()的默认排序算法必须稳定。
 
 
 
+
+
+
+
+
+
+
+创建数组
+var fruits = ['Apple', 'Banana'];
+console.log(fruits.length);
+// 2
+
+通过索引访问数组元素
+var first = fruits[0];
+// Apple
+var last = fruits[fruits.length - 1];
+// Banana
+
+遍历数组
+fruits.forEach(function (item, index, array) {
+    console.log(item, index);
+});
+// Apple 0
+// Banana 1
+
+添加元素到数组的末尾
+var newLength = fruits.push('Orange');
+// newLength:3; fruits: ["Apple", "Banana", "Orange"]
+
+删除数组末尾的元素
+var last = fruits.pop(); // remove Orange (from the end)
+// last: "Orange"; fruits: ["Apple", "Banana"];
+
+删除数组最前面（头部）的元素
+var first = fruits.shift(); // remove Apple from the front
+// first: "Apple"; fruits: ["Banana"];
+
+添加元素到数组的头部
+var newLength = fruits.unshift('Strawberry') // add to the front
+// ["Strawberry", "Banana"];
+
+找出某个元素在数组中的索引
+fruits.push('Mango');
+// ["Strawberry", "Banana", "Mango"]
+var pos = fruits.indexOf('Banana');
+// 1
+
+通过索引删除某个元素
+var removedItem = fruits.splice(pos, 1); // this is how to remove an item
+// ["Strawberry", "Mango"]
+
+从一个索引位置删除多个元素
+var vegetables = ['Cabbage', 'Turnip', 'Radish', 'Carrot'];
+console.log(vegetables); 
+// ["Cabbage", "Turnip", "Radish", "Carrot"]
+var pos = 1, n = 2;
+var removedItems = vegetables.splice(pos, n);
+// this is how to remove items, n defines the number of items to be removed,
+// from that position(pos) onward to the end of array.
+console.log(vegetables); 
+// ["Cabbage", "Carrot"] (the original array is changed)
+console.log(removedItems); 
+// ["Turnip", "Radish"]
+
+复制一个数组
+var shallowCopy = fruits.slice(); // this is how to make a copy 
+// ["Strawberry", "Mango"]
+
+
+虽然数组元素可以看做是数组对象的属性，就像 toString 一样，但是下面的写法是错误的，运行时会抛出 SyntaxError 异常，而原因则是使用了非法的属性名：
+console.log(arr.0); // a syntax error
 
 
 
