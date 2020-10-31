@@ -43,6 +43,9 @@ http://localhost:3000/9
 10. 对象的扩展
 http://localhost:3000/10
 
+11. 对象的新增方法
+http://localhost:3000/11
+
 
 
 
