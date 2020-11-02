@@ -16,6 +16,8 @@ import Comp8 from './pages/8';
 import Comp9 from './pages/9';
 import Comp10 from './pages/10';
 import Comp11 from './pages/11';
+import Comp12 from './pages/12';
+import Comp13  from './pages/13';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -33,6 +35,8 @@ ReactDOM.render(
         <Route path="/9" component={Comp9} />
         <Route path="/10" component={Comp10} />
         <Route path="/11" component={Comp11} />
+        <Route path="/12" component={Comp12} />
+        <Route path="/13" component={Comp13} />
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root')

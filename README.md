@@ -46,6 +46,12 @@ http://localhost:3000/10
 11. 对象的新增方法
 http://localhost:3000/11
 
+12. 对象
+http://localhost:3000/12
+
+13. Symbol
+http://localhost:3000/13
+
 
 
 
