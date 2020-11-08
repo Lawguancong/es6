@@ -616,8 +616,7 @@ console.log(arr.0); // a syntax error
     }
 
     render() {
-    console.log(0 in [, , ,])
-       
+      // console.log(0 in [, , ,])
 
         return (
             <div>
