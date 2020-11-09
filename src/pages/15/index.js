@@ -833,30 +833,6 @@ Object.preventExtensions(proxy)
     render() {
 
 
-      let target = {
-        a: 1,
-        b: 2,
-        c: 3,
-        [Symbol.for('secret')]: '4',
-      };
-      
-      Object.defineProperty(target, 'key', {
-        enumerable: false,
-        configurable: true,
-        writable: true,
-        value: 'static'
-      });
-      
-      let handler = {
-        ownKeys(target) {
-          return ['a', 'd', Symbol.for('secret'), 'key'];
-        }
-      };
-      
-      let proxy = new Proxy(target, handler);
-      console.log(proxy)
-      console.log(Object.keys(proxy))
-
      
         return (
             <div>
