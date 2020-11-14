@@ -61,6 +61,9 @@ http://localhost:3000/15
 16. Reflect - 反映
 http://localhost:3000/16
 
+17. Promise
+http://localhost:3000/17
+
 
 
 
