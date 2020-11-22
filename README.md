@@ -64,6 +64,9 @@ http://localhost:3000/16
 17. Promise
 http://localhost:3000/17
 
+18. Iterator 和 for...of 循环
+http://localhost:3000/18
+
 
 
 
