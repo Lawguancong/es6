@@ -70,6 +70,8 @@ http://localhost:3000/18
 19. Generator 函数的语法
 http://localhost:3000/19
 
+20. Generator 函数的异步应用
+http://localhost:3000/20
 
 
 
