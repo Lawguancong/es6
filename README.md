@@ -67,6 +67,9 @@ http://localhost:3000/17
 18. Iterator 和 for...of 循环
 http://localhost:3000/18
 
+19. Generator 函数的语法
+http://localhost:3000/19
+
 
 
 

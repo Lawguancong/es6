@@ -419,7 +419,7 @@ for (let x of obj) {
 
 
 
-6.遍历器对象的 return()，throw()
+6.遍历器对象方法 next() return() throw()
 
 [Symbol.iterator]() {
   next: function(必填)
