@@ -73,6 +73,10 @@ http://localhost:3000/19
 20. Generator 函数的异步应用
 http://localhost:3000/20
 
+21. async 函数
+http://localhost:3000/21
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
