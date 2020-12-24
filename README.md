@@ -77,6 +77,10 @@ http://localhost:3000/20
 http://localhost:3000/21
 
 
+22. Class 的基本语法
+http://localhost:3000/22
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
