@@ -76,9 +76,11 @@ http://localhost:3000/20
 21. async 函数
 http://localhost:3000/21
 
-
 22. Class 的基本语法
 http://localhost:3000/22
+
+23. Class 的继承
+http://localhost:3000/23
 
 
 
