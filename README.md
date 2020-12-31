@@ -82,6 +82,9 @@ http://localhost:3000/22
 23. Class 的继承
 http://localhost:3000/23
 
+24. Module 的语法
+http://localhost:3000/24
+
 
 
 

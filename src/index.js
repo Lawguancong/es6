@@ -28,6 +28,7 @@ import Comp20  from './pages/20';
 import Comp21  from './pages/21';
 import Comp22  from './pages/22';
 import Comp23 from './pages/23';
+import Comp24 from './pages/24';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -57,6 +58,7 @@ ReactDOM.render(
         <Route path="/21" component={Comp21} />
         <Route path="/22" component={Comp22} />
         <Route path="/23" component={Comp23} />
+        <Route path="/24" component={Comp24} />
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root')
