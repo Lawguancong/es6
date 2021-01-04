@@ -17,18 +17,19 @@ import Comp9 from './pages/9';
 import Comp10 from './pages/10';
 import Comp11 from './pages/11';
 import Comp12 from './pages/12';
-import Comp13  from './pages/13';
-import Comp14  from './pages/14';
-import Comp15  from './pages/15';
-import Comp16  from './pages/16';
-import Comp17  from './pages/17';
-import Comp18  from './pages/18';
-import Comp19  from './pages/19';
-import Comp20  from './pages/20';
-import Comp21  from './pages/21';
-import Comp22  from './pages/22';
+import Comp13 from './pages/13';
+import Comp14 from './pages/14';
+import Comp15 from './pages/15';
+import Comp16 from './pages/16';
+import Comp17 from './pages/17';
+import Comp18 from './pages/18';
+import Comp19 from './pages/19';
+import Comp20 from './pages/20';
+import Comp21 from './pages/21';
+import Comp22 from './pages/22';
 import Comp23 from './pages/23';
 import Comp24 from './pages/24';
+import Comp25 from './pages/25';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -59,6 +60,7 @@ ReactDOM.render(
         <Route path="/22" component={Comp22} />
         <Route path="/23" component={Comp23} />
         <Route path="/24" component={Comp24} />
+        <Route path="/25" component={Comp25} />
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root')
